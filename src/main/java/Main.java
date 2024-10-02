@@ -1,6 +1,6 @@
 import ru.netology.stats.StatsService;
-
 import java. util.Scanner;
+
 
 public class Main {
 
