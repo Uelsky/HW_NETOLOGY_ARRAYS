@@ -1,13 +1,14 @@
 package ru.netology.stats;
 
-import java.util.Arrays;
-
 
 public class StatsService {
 
     public long sumSales(long[] sales) {
-        long result;
-        result = Arrays.stream(sales).sum();
+        long result = 0;
+
+        for (int i =0; i < sales.length; i++) {
+            result += sales[i];
+        }
         return result;
     }
 
